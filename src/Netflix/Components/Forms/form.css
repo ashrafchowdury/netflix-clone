@@ -1,0 +1,92 @@
+.form_body{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.form_body::before{
+    content: "";
+    background-image: url(../Home/HR-en-20180423-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.5;
+}
+
+.form_div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    width: 500px;
+    height: 700px;
+    border-radius: 4px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 0px;
+    width: 350px;
+}
+form h1{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 27px;
+}
+.input_value{
+    background: #333;
+    color: #fff;
+    /* height: 50px;
+    line-height: 50px; */
+    padding: 12px 20px ;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+.form_btn{
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    margin: 40px 0px 0px;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    background-color: red;
+}
+.remember_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.checkbox{
+    margin-right: 5px;
+    border: none;
+    outline: none;
+}
+.facebook_btn{
+    margin-top: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.have_acount{
+    margin: 10px 0px 15px;
+}
+strong{
+    cursor: pointer;
+    font-size: 18px;
+}
+.form_pera{
+    font-size: 13px;
+}

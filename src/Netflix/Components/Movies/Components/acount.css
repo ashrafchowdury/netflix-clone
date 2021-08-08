@@ -1,0 +1,154 @@
+.acount_body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+ 
+}
+.acount_body::before {
+  content: "";
+  background-image: url(../../Home/HR-en-20180423-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  opacity: 0.5;
+}
+
+.acount_logo {
+  width: 200px;
+  color: red;
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+}
+.acount_main_div {
+  width: 700px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -65%);
+  color: white;
+}
+.acount_information {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.719);
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+}
+#acount_icon {
+  font-size: 10rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  padding: 8px 10px 0px;
+  background-color: rgba(0, 0, 0, 0.719);
+  margin-top: -80px;
+}
+.acount_btns {
+  width: 200px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.719);
+  margin-top: 20px;
+}
+.save_btn {
+  transform: translateX(50%);
+}
+.acount_btns button {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+}
+
+.arrow_main_div {
+  width: 80vw;
+  margin: 150px auto 70px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.arrow_main_div div i {
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .acount_main_div {
+    width: 80%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -65%);
+    color: white;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  
+  .acount_logo {
+    width: 200px;
+    color: red;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+  }
+  .acount_main_div {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -100%);
+    color: white;
+  
+  }
+  .acount_btns {
+    margin: 20px auto;
+    font-size: 19px;
+  }
+  .acount_information {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.719);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  #acount_icon {
+    font-size: 8.5rem;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 8px 10px 0px;
+    background-color: rgba(0, 0, 0, 0.719);
+    margin-top: -80px;
+  }
+  .arrow_main_div {
+    width: 90vw;
+    margin: 80px auto 50px;
+  }
+  .arrow_main_div div i {
+    font-size: 2.5rem;
+  }
+}
