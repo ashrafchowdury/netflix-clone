@@ -21,8 +21,8 @@ const Acount = () => {
   return (
     <>
       <div className="acount_body">
-      <div className="acount_logo">Netflix</div>
-      <BackBtn class='arrow_main_div' />
+        <div className="acount_logo">Netflix</div>
+        <BackBtn class="arrow_main_div" />
         <section>
           <div className="acount_main_div">
             <div className="acount_information">
@@ -44,7 +44,7 @@ const Acount = () => {
             </div>
             <div className="acount_btns">
               <NavLink to="/save">
-                <button className='save_btn'>Wish List</button>
+                <button className="save_btn">Wish List</button>
               </NavLink>
               <button onClick={handleLogout}>Log out</button>
             </div>
